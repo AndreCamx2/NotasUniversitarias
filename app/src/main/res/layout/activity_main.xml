@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/etiTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App para Administrar Notas"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/botonUniversidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarCrudUniversidades"
+        android:text="Universidades"
+        android:textSize="18sp" />
+
+</LinearLayout>
